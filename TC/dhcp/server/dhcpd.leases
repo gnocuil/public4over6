@@ -1,0 +1,104 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.2.3-P2
+
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:04:56;
+  ends 4 2012/11/15 03:14:56;
+  cltt 4 2012/11/15 03:04:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+server-duid "\000\001\000\001\0306\374\027\000\037\320\304e\014";
+
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:09:56;
+  ends 4 2012/11/15 03:19:56;
+  cltt 4 2012/11/15 03:09:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:14:56;
+  ends 4 2012/11/15 03:24:56;
+  cltt 4 2012/11/15 03:14:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:19:56;
+  ends 4 2012/11/15 03:29:56;
+  cltt 4 2012/11/15 03:19:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:24:56;
+  ends 4 2012/11/15 03:34:56;
+  cltt 4 2012/11/15 03:24:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:29:56;
+  ends 4 2012/11/15 03:39:56;
+  cltt 4 2012/11/15 03:29:56;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:34:57;
+  ends 4 2012/11/15 03:44:57;
+  cltt 4 2012/11/15 03:34:57;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:39:57;
+  ends 4 2012/11/15 03:49:57;
+  cltt 4 2012/11/15 03:39:57;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:44:57;
+  ends 4 2012/11/15 03:54:57;
+  cltt 4 2012/11/15 03:44:57;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:49:57;
+  ends 4 2012/11/15 03:59:57;
+  cltt 4 2012/11/15 03:49:57;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}
+lease 118.229.248.155 {
+  starts 4 2012/11/15 03:54:57;
+  ends 4 2012/11/15 04:04:57;
+  cltt 4 2012/11/15 03:54:57;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet f4:6d:04:17:5e:ff;
+}

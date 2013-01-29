@@ -1,0 +1,2 @@
+binddir=/home/public4o6/public4over6/dhcp-4.2.3-P2-nopset/bind
+GMAKE=make

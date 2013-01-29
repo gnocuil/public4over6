@@ -1,0 +1,662 @@
+In file included from ../includes/dhcpd.h:95,
+                 from dhcpd.c:42:
+../includes/omapip/isclib.h:51:24: error: isc/buffer.h: 没有那个文件或目录
+../includes/omapip/isclib.h:52:21: error: isc/lex.h: 没有那个文件或目录
+../includes/omapip/isclib.h:53:21: error: isc/lib.h: 没有那个文件或目录
+../includes/omapip/isclib.h:54:21: error: isc/app.h: 没有那个文件或目录
+../includes/omapip/isclib.h:55:21: error: isc/mem.h: 没有那个文件或目录
+../includes/omapip/isclib.h:56:26: error: isc/parseint.h: 没有那个文件或目录
+../includes/omapip/isclib.h:57:24: error: isc/socket.h: 没有那个文件或目录
+../includes/omapip/isclib.h:58:26: error: isc/sockaddr.h: 没有那个文件或目录
+../includes/omapip/isclib.h:59:22: error: isc/task.h: 没有那个文件或目录
+../includes/omapip/isclib.h:60:23: error: isc/timer.h: 没有那个文件或目录
+../includes/omapip/isclib.h:61:22: error: isc/heap.h: 没有那个文件或目录
+../includes/omapip/isclib.h:62:24: error: isc/random.h: 没有那个文件或目录
+../includes/omapip/isclib.h:64:24: error: dns/client.h: 没有那个文件或目录
+../includes/omapip/isclib.h:65:27: error: dns/fixedname.h: 没有那个文件或目录
+../includes/omapip/isclib.h:66:27: error: dns/keyvalues.h: 没有那个文件或目录
+../includes/omapip/isclib.h:67:21: error: dns/lib.h: 没有那个文件或目录
+../includes/omapip/isclib.h:68:22: error: dns/name.h: 没有那个文件或目录
+../includes/omapip/isclib.h:69:23: error: dns/rdata.h: 没有那个文件或目录
+../includes/omapip/isclib.h:70:28: error: dns/rdataclass.h: 没有那个文件或目录
+../includes/omapip/isclib.h:71:27: error: dns/rdatalist.h: 没有那个文件或目录
+../includes/omapip/isclib.h:72:26: error: dns/rdataset.h: 没有那个文件或目录
+../includes/omapip/isclib.h:73:29: error: dns/rdatastruct.h: 没有那个文件或目录
+../includes/omapip/isclib.h:74:27: error: dns/rdatatype.h: 没有那个文件或目录
+../includes/omapip/isclib.h:75:24: error: dns/result.h: 没有那个文件或目录
+../includes/omapip/isclib.h:76:24: error: dns/secalg.h: 没有那个文件或目录
+../includes/omapip/isclib.h:77:22: error: dns/tsec.h: 没有那个文件或目录
+../includes/omapip/isclib.h:79:21: error: dst/dst.h: 没有那个文件或目录
+In file included from ../includes/omapip/isclib.h:81,
+                 from ../includes/dhcpd.h:95,
+                 from dhcpd.c:42:
+../includes/omapip/result.h:29:22: error: isc/lang.h: 没有那个文件或目录
+../includes/omapip/result.h:30:29: error: isc/resultclass.h: 没有那个文件或目录
+../includes/omapip/result.h:31:23: error: isc/types.h: 没有那个文件或目录
+../includes/omapip/result.h:33:24: error: isc/result.h: 没有那个文件或目录
+In file included from ../includes/omapip/isclib.h:81,
+                 from ../includes/dhcpd.h:95,
+                 from dhcpd.c:42:
+../includes/omapip/result.h:118: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dhcp_result_register’
+In file included from ../includes/dhcpd.h:95,
+                 from dhcpd.c:42:
+../includes/omapip/isclib.h:90: error: expected specifier-qualifier-list before ‘isc_mem_t’
+../includes/omapip/isclib.h:108: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dhcp_isc_name’
+../includes/omapip/isclib.h:113: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘isclib_make_dst_key’
+../includes/omapip/isclib.h:119: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dhcp_context_create’
+In file included from ../includes/dhcpd.h:101,
+                 from dhcpd.c:42:
+../includes/tree.h:311: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+In file included from ../includes/omapip/omapip_p.h:71,
+                 from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/hash.h:51: error: expected declaration specifiers or ‘...’ before ‘*’ token
+cc1: warnings being treated as errors
+../includes/omapip/hash.h:51: error: type defaults to ‘int’ in declaration of ‘isc_result_t’
+../includes/omapip/hash.h:51: error: ‘isc_result_t’ declared as function returning a function
+../includes/omapip/hash.h:164: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+In file included from ../includes/omapip/omapip_p.h:72,
+                 from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/omapip.h:75: error: ‘reference’ declared as function returning a function
+../includes/omapip/omapip.h:77: error: ‘dereference’ declared as function returning a function
+../includes/omapip/omapip.h:105: error: ‘set_value’ declared as function returning a function
+../includes/omapip/omapip.h:108: error: ‘get_value’ declared as function returning a function
+../includes/omapip/omapip.h:109: error: ‘destroy’ declared as function returning a function
+../includes/omapip/omapip.h:111: error: ‘signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:113: error: ‘stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:115: error: ‘lookup’ declared as function returning a function
+../includes/omapip/omapip.h:116: error: ‘create’ declared as function returning a function
+../includes/omapip/omapip.h:117: error: ‘remove’ declared as function returning a function
+../includes/omapip/omapip.h:118: error: ‘freer’ declared as function returning a function
+../includes/omapip/omapip.h:119: error: ‘allocator’ declared as function returning a function
+../includes/omapip/omapip.h:120: error: ‘sizer’ declared as function returning a function
+../includes/omapip/omapip.h:123: error: ‘initialize’ declared as function returning a function
+../includes/omapip/omapip.h:158: error: expected specifier-qualifier-list before ‘dns_tsec_t’
+../includes/omapip/omapip.h:191: error: ‘omapi_array_ref_t’ declared as function returning a function
+../includes/omapip/omapip.h:192: error: ‘omapi_array_deref_t’ declared as function returning a function
+../includes/omapip/omapip.h:269: error: ‘omapi_protocol_connect’ declared as function returning a function
+../includes/omapip/omapip.h:271: error: ‘omapi_connect_list’ declared as function returning a function
+../includes/omapip/omapip.h:272: error: ‘omapi_protocol_listen’ declared as function returning a function
+../includes/omapip/omapip.h:273: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘omapi_protocol_authenticated’
+../includes/omapip/omapip.h:277: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:280: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:280: error: ‘omapi_protocol_configure_security’ declared as function returning a function
+../includes/omapip/omapip.h:281: error: ‘omapi_protocol_accept’ declared as function returning a function
+../includes/omapip/omapip.h:282: error: ‘omapi_protocol_send_intro’ declared as function returning a function
+../includes/omapip/omapip.h:283: error: ‘omapi_protocol_ready’ declared as function returning a function
+../includes/omapip/omapip.h:285: error: ‘omapi_protocol_add_auth’ declared as function returning a function
+../includes/omapip/omapip.h:287: error: ‘omapi_protocol_lookup_auth’ declared as function returning a function
+../includes/omapip/omapip.h:290: error: ‘omapi_protocol_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:293: error: ‘omapi_protocol_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:296: error: ‘omapi_protocol_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:298: error: ‘omapi_protocol_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:302: error: ‘omapi_protocol_send_message’ declared as function returning a function
+../includes/omapip/omapip.h:304: error: ‘omapi_protocol_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:308: error: ‘omapi_protocol_listener_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:312: error: ‘omapi_protocol_listener_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:314: error: ‘omapi_protocol_listener_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:316: error: ‘omapi_protocol_listener_signal’ declared as function returning a function
+../includes/omapip/omapip.h:319: error: ‘omapi_protocol_listener_stuff’ declared as function returning a function
+../includes/omapip/omapip.h:321: error: ‘omapi_protocol_send_status’ declared as function returning a function
+../includes/omapip/omapip.h:324: error: ‘omapi_protocol_send_open’ declared as function returning a function
+../includes/omapip/omapip.h:326: error: ‘omapi_protocol_send_update’ declared as function returning a function
+../includes/omapip/omapip.h:328: error: ‘omapi_connect’ declared as function returning a function
+../includes/omapip/omapip.h:329: error: ‘omapi_disconnect’ declared as function returning a function
+../includes/omapip/omapip.h:332: error: ‘omapi_connection_connect’ declared as function returning a function
+../includes/omapip/omapip.h:333: error: ‘omapi_connection_reader’ declared as function returning a function
+../includes/omapip/omapip.h:334: error: ‘omapi_connection_writer’ declared as function returning a function
+../includes/omapip/omapip.h:335: error: ‘omapi_connection_reaper’ declared as function returning a function
+../includes/omapip/omapip.h:337: error: ‘omapi_connection_output_auth_length’ declared as function returning a function
+../includes/omapip/omapip.h:340: error: ‘omapi_connection_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:343: error: ‘omapi_connection_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:344: error: ‘omapi_connection_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:346: error: ‘omapi_connection_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:349: error: ‘omapi_connection_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:351: error: ‘omapi_connection_write_typed_data’ declared as function returning a function
+../includes/omapip/omapip.h:352: error: ‘omapi_connection_put_name’ declared as function returning a function
+../includes/omapip/omapip.h:353: error: ‘omapi_connection_put_string’ declared as function returning a function
+../includes/omapip/omapip.h:355: error: ‘omapi_connection_put_handle’ declared as function returning a function
+../includes/omapip/omapip.h:357: error: ‘omapi_listen’ declared as function returning a function
+../includes/omapip/omapip.h:359: error: ‘omapi_listen_addr’ declared as function returning a function
+../includes/omapip/omapip.h:360: error: ‘omapi_listener_accept’ declared as function returning a function
+../includes/omapip/omapip.h:362: error: ‘omapi_accept’ declared as function returning a function
+../includes/omapip/omapip.h:366: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:366: error: ‘omapi_listener_configure_security’ declared as function returning a function
+../includes/omapip/omapip.h:369: error: ‘omapi_listener_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:372: error: ‘omapi_listener_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:373: error: ‘omapi_listener_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:375: error: ‘omapi_listener_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:378: error: ‘omapi_listener_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:383: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:384: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:385: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:385: error: ‘omapi_register_io_object’ declared as function returning a function
+../includes/omapip/omapip.h:389: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:390: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:391: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:391: error: ‘omapi_reregister_io_object’ declared as function returning a function
+../includes/omapip/omapip.h:392: error: ‘omapi_unregister_io_object’ declared as function returning a function
+../includes/omapip/omapip.h:393: error: ‘omapi_dispatch’ declared as function returning a function
+../includes/omapip/omapip.h:394: error: ‘omapi_wait_for_completion’ declared as function returning a function
+../includes/omapip/omapip.h:395: error: ‘omapi_one_dispatch’ declared as function returning a function
+../includes/omapip/omapip.h:398: error: ‘omapi_io_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:400: error: ‘omapi_io_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:401: error: ‘omapi_io_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:402: error: ‘omapi_io_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:405: error: ‘omapi_io_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:407: error: ‘omapi_waiter_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:409: error: ‘func’ declared as function returning a function
+../includes/omapip/omapip.h:410: error: ‘omapi_io_state_foreach’ declared as function returning a function
+../includes/omapip/omapip.h:412: error: ‘omapi_generic_new’ declared as function returning a function
+../includes/omapip/omapip.h:415: error: ‘omapi_generic_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:418: error: ‘omapi_generic_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:419: error: ‘omapi_generic_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:421: error: ‘omapi_generic_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:424: error: ‘omapi_generic_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:425: error: ‘omapi_generic_clear_flags’ declared as function returning a function
+../includes/omapip/omapip.h:427: error: ‘omapi_message_new’ declared as function returning a function
+../includes/omapip/omapip.h:430: error: ‘omapi_message_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:433: error: ‘omapi_message_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:434: error: ‘omapi_message_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:436: error: ‘omapi_message_signal_handler’ declared as function returning a function
+../includes/omapip/omapip.h:439: error: ‘omapi_message_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:440: error: ‘omapi_message_register’ declared as function returning a function
+../includes/omapip/omapip.h:441: error: ‘omapi_message_unregister’ declared as function returning a function
+../includes/omapip/omapip.h:442: error: ‘omapi_message_process’ declared as function returning a function
+../includes/omapip/omapip.h:444: error: ‘omapi_auth_key_allocate’ declared as function returning a function
+../includes/omapip/omapip.h:444: error: ‘omapi_auth_key_reference’ declared as function returning a function
+../includes/omapip/omapip.h:444: error: ‘omapi_auth_key_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:446: error: ‘omapi_auth_key_new’ declared as function returning a function
+../includes/omapip/omapip.h:447: error: ‘omapi_auth_key_destroy’ declared as function returning a function
+../includes/omapip/omapip.h:448: error: ‘omapi_auth_key_enter’ declared as function returning a function
+../includes/omapip/omapip.h:449: error: ‘omapi_auth_key_lookup_name’ declared as function returning a function
+../includes/omapip/omapip.h:452: error: ‘omapi_auth_key_lookup’ declared as function returning a function
+../includes/omapip/omapip.h:455: error: ‘omapi_auth_key_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:458: error: ‘omapi_auth_key_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:474: error: ‘omapi_init’ declared as function returning a function
+../includes/omapip/omapip.h:481: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:486: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:488: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:491: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:494: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:497: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:499: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:501: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:503: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:505: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:506: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:508: error: ‘type name’ declared as function returning a function
+../includes/omapip/omapip.h:509: error: ‘omapi_object_type_register’ declared as function returning a function
+../includes/omapip/omapip.h:510: error: ‘omapi_signal’ declared as function returning a function
+../includes/omapip/omapip.h:511: error: ‘omapi_signal_in’ declared as function returning a function
+../includes/omapip/omapip.h:514: error: ‘omapi_set_value’ declared as function returning a function
+../includes/omapip/omapip.h:516: error: ‘omapi_set_value_str’ declared as function returning a function
+../includes/omapip/omapip.h:518: error: ‘omapi_set_boolean_value’ declared as function returning a function
+../includes/omapip/omapip.h:520: error: ‘omapi_set_int_value’ declared as function returning a function
+../includes/omapip/omapip.h:522: error: ‘omapi_set_object_value’ declared as function returning a function
+../includes/omapip/omapip.h:524: error: ‘omapi_set_string_value’ declared as function returning a function
+../includes/omapip/omapip.h:527: error: ‘omapi_get_value’ declared as function returning a function
+../includes/omapip/omapip.h:529: error: ‘omapi_get_value_str’ declared as function returning a function
+../includes/omapip/omapip.h:532: error: ‘omapi_stuff_values’ declared as function returning a function
+../includes/omapip/omapip.h:534: error: ‘omapi_object_create’ declared as function returning a function
+../includes/omapip/omapip.h:536: error: ‘omapi_object_update’ declared as function returning a function
+../includes/omapip/omapip.h:542: error: ‘omapi_make_value’ declared as function returning a function
+../includes/omapip/omapip.h:545: error: ‘omapi_make_const_value’ declared as function returning a function
+../includes/omapip/omapip.h:547: error: ‘omapi_make_int_value’ declared as function returning a function
+../includes/omapip/omapip.h:549: error: ‘omapi_make_uint_value’ declared as function returning a function
+../includes/omapip/omapip.h:551: error: ‘omapi_make_object_value’ declared as function returning a function
+../includes/omapip/omapip.h:553: error: ‘omapi_make_handle_value’ declared as function returning a function
+../includes/omapip/omapip.h:555: error: ‘omapi_make_string_value’ declared as function returning a function
+../includes/omapip/omapip.h:556: error: ‘omapi_get_int_value’ declared as function returning a function
+../includes/omapip/omapip.h:558: error: ‘omapi_object_handle’ declared as function returning a function
+../includes/omapip/omapip.h:559: error: ‘omapi_handle_lookup’ declared as function returning a function
+../includes/omapip/omapip.h:560: error: ‘omapi_handle_td_lookup’ declared as function returning a function
+../includes/omapip/omapip.h:579: error: ‘omapi_object_allocate’ declared as function returning a function
+../includes/omapip/omapip.h:582: error: ‘omapi_object_initialize’ declared as function returning a function
+../includes/omapip/omapip.h:584: error: ‘omapi_object_reference’ declared as function returning a function
+../includes/omapip/omapip.h:585: error: ‘omapi_object_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:587: error: ‘omapi_typed_data_new’ declared as function returning a function
+../includes/omapip/omapip.h:590: error: ‘omapi_typed_data_reference’ declared as function returning a function
+../includes/omapip/omapip.h:592: error: ‘omapi_typed_data_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:594: error: ‘omapi_data_string_new’ declared as function returning a function
+../includes/omapip/omapip.h:597: error: ‘omapi_data_string_reference’ declared as function returning a function
+../includes/omapip/omapip.h:599: error: ‘omapi_data_string_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:600: error: ‘omapi_value_new’ declared as function returning a function
+../includes/omapip/omapip.h:602: error: ‘omapi_value_reference’ declared as function returning a function
+../includes/omapip/omapip.h:603: error: ‘omapi_value_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:605: error: ‘omapi_addr_list_new’ declared as function returning a function
+../includes/omapip/omapip.h:608: error: ‘omapi_addr_list_reference’ declared as function returning a function
+../includes/omapip/omapip.h:610: error: ‘omapi_addr_list_dereference’ declared as function returning a function
+../includes/omapip/omapip.h:613: error: ‘omapi_array_allocate’ declared as function returning a function
+../includes/omapip/omapip.h:614: error: ‘omapi_array_free’ declared as function returning a function
+../includes/omapip/omapip.h:616: error: ‘omapi_array_extend’ declared as function returning a function
+../includes/omapip/omapip.h:617: error: ‘omapi_array_set’ declared as function returning a function
+../includes/omapip/omapip.h:619: error: ‘omapi_array_lookup’ declared as function returning a function
+../includes/omapip/omapip.h:620: error: ‘omapi_object_array_allocate’ declared as function returning a function
+../includes/omapip/omapip.h:620: error: ‘omapi_object_array_free’ declared as function returning a function
+../includes/omapip/omapip.h:620: error: ‘omapi_object_array_extend’ declared as function returning a function
+../includes/omapip/omapip.h:620: error: ‘omapi_object_array_set’ declared as function returning a function
+../includes/omapip/omapip.h:620: error: ‘omapi_object_array_lookup’ declared as function returning a function
+In file included from ../includes/omapip/omapip_p.h:73,
+                 from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/trace.h:93: error: ‘trace_init’ declared as function returning a function
+../includes/omapip/trace.h:94: error: ‘trace_begin’ declared as function returning a function
+../includes/omapip/trace.h:96: error: ‘trace_write_packet’ declared as function returning a function
+../includes/omapip/trace.h:98: error: ‘trace_write_packet_iov’ declared as function returning a function
+../includes/omapip/trace.h:111: error: ‘trace_get_next_packet’ declared as function returning a function
+../includes/omapip/trace.h:113: error: ‘trace_get_file’ declared as function returning a function
+../includes/omapip/trace.h:114: error: ‘trace_get_packet’ declared as function returning a function
+In file included from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/omapip_p.h:154: error: field ‘verify_result’ declared as a function
+../includes/omapip/omapip_p.h:159: error: expected specifier-qualifier-list before ‘isc_boolean_t’
+../includes/omapip/omapip_p.h:168: error: expected specifier-qualifier-list before ‘isc_boolean_t’
+In file included from ../includes/omapip/omapip_p.h:174,
+                 from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/buffer.h:73: error: ‘omapi_connection_require’ declared as function returning a function
+../includes/omapip/buffer.h:75: error: ‘omapi_connection_copyout’ declared as function returning a function
+../includes/omapip/buffer.h:77: error: ‘omapi_connection_copyin’ declared as function returning a function
+../includes/omapip/buffer.h:78: error: ‘omapi_connection_flush’ declared as function returning a function
+../includes/omapip/buffer.h:79: error: ‘omapi_connection_get_uint32’ declared as function returning a function
+../includes/omapip/buffer.h:80: error: ‘omapi_connection_put_uint32’ declared as function returning a function
+../includes/omapip/buffer.h:81: error: ‘omapi_connection_get_uint16’ declared as function returning a function
+../includes/omapip/buffer.h:82: error: ‘omapi_connection_put_uint16’ declared as function returning a function
+In file included from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/omapip_p.h:181: error: ‘verify_addr’ declared as function returning a function
+../includes/omapip/omapip_p.h:201: error: expected specifier-qualifier-list before ‘dst_key_t’
+../includes/omapip/omapip_p.h:214: error: ‘reader’ declared as function returning a function
+../includes/omapip/omapip_p.h:215: error: ‘writer’ declared as function returning a function
+../includes/omapip/omapip_p.h:216: error: ‘reaper’ declared as function returning a function
+../includes/omapip/omapip_p.h:217: error: expected specifier-qualifier-list before ‘isc_socket_t’
+../includes/omapip/omapip_p.h:231: error: field ‘waitstatus’ declared as a function
+In file included from ../includes/omapip/omapip_p.h:247,
+                 from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/alloc.h:35: error: ‘omapi_buffer_new’ declared as function returning a function
+../includes/omapip/alloc.h:37: error: ‘omapi_buffer_reference’ declared as function returning a function
+../includes/omapip/alloc.h:38: error: ‘omapi_buffer_dereference’ declared as function returning a function
+In file included from ../includes/dhcpd.h:105,
+                 from dhcpd.c:42:
+../includes/omapip/omapip_p.h:249: error: ‘omapi_protocol_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:249: error: ‘omapi_protocol_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:249: error: ‘omapi_protocol_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:251: error: ‘omapi_protocol_listener_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:251: error: ‘omapi_protocol_listener_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:251: error: ‘omapi_protocol_listener_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:254: error: ‘omapi_connection_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:254: error: ‘omapi_connection_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:254: error: ‘omapi_connection_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:256: error: ‘omapi_listener_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:256: error: ‘omapi_listener_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:256: error: ‘omapi_listener_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:258: error: ‘omapi_io_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:258: error: ‘omapi_io_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:258: error: ‘omapi_io_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:260: error: ‘omapi_waiter_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:260: error: ‘omapi_waiter_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:260: error: ‘omapi_waiter_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:262: error: ‘omapi_generic_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:262: error: ‘omapi_generic_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:262: error: ‘omapi_generic_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:264: error: ‘omapi_message_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:264: error: ‘omapi_message_reference’ declared as function returning a function
+../includes/omapip/omapip_p.h:264: error: ‘omapi_message_dereference’ declared as function returning a function
+../includes/omapip/omapip_p.h:268: error: expected declaration specifiers or ‘...’ before ‘dst_key_t’
+../includes/omapip/omapip_p.h:272: error: ‘omapi_connection_sign_data’ declared as function returning a function
+../includes/omapip/omapip_p.h:276: error: ‘omapi_listener_connect’ declared as function returning a function
+../includes/omapip/omapip_p.h:282: error: ‘omapi_listener_array_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:282: error: ‘omapi_listener_array_free’ declared as function returning a function
+../includes/omapip/omapip_p.h:282: error: ‘omapi_listener_array_extend’ declared as function returning a function
+../includes/omapip/omapip_p.h:282: error: ‘omapi_listener_array_set’ declared as function returning a function
+../includes/omapip/omapip_p.h:282: error: ‘omapi_listener_array_lookup’ declared as function returning a function
+../includes/omapip/omapip_p.h:283: error: ‘omapi_connection_array_allocate’ declared as function returning a function
+../includes/omapip/omapip_p.h:283: error: ‘omapi_connection_array_free’ declared as function returning a function
+../includes/omapip/omapip_p.h:283: error: ‘omapi_connection_array_extend’ declared as function returning a function
+../includes/omapip/omapip_p.h:283: error: ‘omapi_connection_array_set’ declared as function returning a function
+../includes/omapip/omapip_p.h:283: error: ‘omapi_connection_array_lookup’ declared as function returning a function
+../includes/omapip/omapip_p.h:285: error: ‘omapi_handle_clear’ declared as function returning a function
+../includes/omapip/omapip_p.h:301: error: ‘uerr2isc’ declared as function returning a function
+../includes/omapip/omapip_p.h:302: error: ‘ns_rcode_to_isc’ declared as function returning a function
+In file included from dhcpd.c:42:
+../includes/dhcpd.h:426: error: expected specifier-qualifier-list before ‘isc_boolean_t’
+../includes/dhcpd.h:1066: error: expected specifier-qualifier-list before ‘isc_boolean_t’
+../includes/dhcpd.h:1315: error: expected specifier-qualifier-list before ‘isc_timer_t’
+In file included from dhcpd.c:42:
+../includes/dhcpd.h:1542: error: expected specifier-qualifier-list before ‘isc_heap_t’
+../includes/dhcpd.h:1596: error: expected specifier-qualifier-list before ‘isc_sockaddrlist_t’
+../includes/dhcpd.h:1621: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1622: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1623: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1625: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1627: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1628: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1630: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1632: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1633: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:1657: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1737: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1825: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1854: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1856: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1885: error: ‘dhcp_io_shutdown’ declared as function returning a function
+../includes/dhcpd.h:1887: error: ‘dhcp_set_control_state’ declared as function returning a function
+../includes/dhcpd.h:1894: error: ‘new_parse’ declared as function returning a function
+../includes/dhcpd.h:1895: error: ‘end_parse’ declared as function returning a function
+../includes/dhcpd.h:1896: error: ‘save_parse_state’ declared as function returning a function
+../includes/dhcpd.h:1897: error: ‘restore_parse_state’ declared as function returning a function
+../includes/dhcpd.h:1907: error: ‘readconf’ declared as function returning a function
+../includes/dhcpd.h:1908: error: ‘read_conf_file’ declared as function returning a function
+../includes/dhcpd.h:1913: error: ‘conf_file_subparse’ declared as function returning a function
+../includes/dhcpd.h:1914: error: ‘lease_file_subparse’ declared as function returning a function
+../includes/dhcpd.h:1956: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:1984: error: ‘parse_option_name’ declared as function returning a function
+../includes/dhcpd.h:2185: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘server_duid_isset’
+../includes/dhcpd.h:2188: error: ‘set_server_duid_from_option’ declared as function returning a function
+../includes/dhcpd.h:2190: error: ‘generate_new_server_duid’ declared as function returning a function
+../includes/dhcpd.h:2191: error: ‘get_client_id’ declared as function returning a function
+../includes/dhcpd.h:2201: error: ‘delete_group’ declared as function returning a function
+../includes/dhcpd.h:2202: error: ‘supersede_group’ declared as function returning a function
+../includes/dhcpd.h:2213: error: ‘lease_allocate’ declared as function returning a function
+../includes/dhcpd.h:2213: error: ‘lease_reference’ declared as function returning a function
+../includes/dhcpd.h:2213: error: ‘lease_dereference’ declared as function returning a function
+../includes/dhcpd.h:2214: error: ‘class_allocate’ declared as function returning a function
+../includes/dhcpd.h:2214: error: ‘class_reference’ declared as function returning a function
+../includes/dhcpd.h:2214: error: ‘class_dereference’ declared as function returning a function
+../includes/dhcpd.h:2215: error: ‘subclass_allocate’ declared as function returning a function
+../includes/dhcpd.h:2215: error: ‘subclass_reference’ declared as function returning a function
+../includes/dhcpd.h:2215: error: ‘subclass_dereference’ declared as function returning a function
+../includes/dhcpd.h:2216: error: ‘pool_allocate’ declared as function returning a function
+../includes/dhcpd.h:2216: error: ‘pool_reference’ declared as function returning a function
+../includes/dhcpd.h:2216: error: ‘pool_dereference’ declared as function returning a function
+../includes/dhcpd.h:2217: error: ‘host_allocate’ declared as function returning a function
+../includes/dhcpd.h:2217: error: ‘host_reference’ declared as function returning a function
+../includes/dhcpd.h:2217: error: ‘host_dereference’ declared as function returning a function
+../includes/dhcpd.h:2220: error: ‘subnet_allocate’ declared as function returning a function
+../includes/dhcpd.h:2220: error: ‘subnet_reference’ declared as function returning a function
+../includes/dhcpd.h:2220: error: ‘subnet_dereference’ declared as function returning a function
+../includes/dhcpd.h:2221: error: ‘shared_network_allocate’ declared as function returning a function
+../includes/dhcpd.h:2221: error: ‘shared_network_reference’ declared as function returning a function
+../includes/dhcpd.h:2221: error: ‘shared_network_dereference’ declared as function returning a function
+../includes/dhcpd.h:2223: error: ‘group_object_allocate’ declared as function returning a function
+../includes/dhcpd.h:2223: error: ‘group_object_reference’ declared as function returning a function
+../includes/dhcpd.h:2223: error: ‘group_object_dereference’ declared as function returning a function
+../includes/dhcpd.h:2224: error: ‘dhcp_control_allocate’ declared as function returning a function
+../includes/dhcpd.h:2224: error: ‘dhcp_control_reference’ declared as function returning a function
+../includes/dhcpd.h:2224: error: ‘dhcp_control_dereference’ declared as function returning a function
+../includes/dhcpd.h:2402: error: ‘fallback_discard’ declared as function returning a function
+../includes/dhcpd.h:2555: error: ‘interface_setup’ declared as function returning a function
+../includes/dhcpd.h:2568: error: ‘dhcp_interface_startup_hook’ declared as function returning a function
+../includes/dhcpd.h:2577: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:2580: error: expected declaration specifiers or ‘...’ before ‘isc_boolean_t’
+../includes/dhcpd.h:2591: error: ‘interface_initialize’ declared as function returning a function
+../includes/dhcpd.h:2601: error: ‘got_one’ declared as function returning a function
+../includes/dhcpd.h:2602: error: ‘got_one_v6’ declared as function returning a function
+../includes/dhcpd.h:2603: error: ‘got_one_4v6’ declared as function returning a function
+../includes/dhcpd.h:2605: error: ‘interface_set_value’ declared as function returning a function
+../includes/dhcpd.h:2607: error: ‘interface_get_value’ declared as function returning a function
+../includes/dhcpd.h:2608: error: ‘interface_destroy’ declared as function returning a function
+../includes/dhcpd.h:2610: error: ‘interface_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:2613: error: ‘interface_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:2621: error: ‘interface_allocate’ declared as function returning a function
+../includes/dhcpd.h:2621: error: ‘interface_reference’ declared as function returning a function
+../includes/dhcpd.h:2621: error: ‘interface_dereference’ declared as function returning a function
+../includes/dhcpd.h:2670: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘is_cidr_mask_valid’
+../includes/dhcpd.h:2672: error: ‘range2cidr’ declared as function returning a function
+../includes/dhcpd.h:2673: error: ‘free_iaddrcidrnetlist’ declared as function returning a function
+../includes/dhcpd.h:2733: error: ‘write_client6_lease’ declared as function returning a function
+../includes/dhcpd.h:2756: error: ‘dhclient_interface_startup_hook’ declared as function returning a function
+../includes/dhcpd.h:2761: error: ‘client_dns_update’ declared as function returning a function
+../includes/dhcpd.h:2786: error: ‘write_named_billing_class’ declared as function returning a function
+../includes/dhcpd.h:2861: error: ‘read_client_conf’ declared as function returning a function
+../includes/dhcpd.h:2886: error: ‘icmp_state_allocate’ declared as function returning a function
+../includes/dhcpd.h:2886: error: ‘icmp_state_reference’ declared as function returning a function
+../includes/dhcpd.h:2886: error: ‘icmp_state_dereference’ declared as function returning a function
+../includes/dhcpd.h:2891: error: ‘icmp_echoreply’ declared as function returning a function
+../includes/dhcpd.h:2895: error: ‘find_tsig_key’ declared as function returning a function
+../includes/dhcpd.h:2898: error: ‘enter_dns_zone’ declared as function returning a function
+../includes/dhcpd.h:2899: error: ‘dns_zone_lookup’ declared as function returning a function
+../includes/dhcpd.h:2904: error: ‘find_cached_zone’ declared as function returning a function
+../includes/dhcpd.h:2910: error: ‘dhcid_fromlease’ declared as function returning a function
+../includes/dhcpd.h:2913: error: ‘ddns_update_fwd’ declared as function returning a function
+../includes/dhcpd.h:2915: error: ‘ddns_remove_fwd’ declared as function returning a function
+../includes/dhcpd.h:2943: error: ‘unlink_class’ declared as function returning a function
+../includes/dhcpd.h:2945: error: ‘find_class’ declared as function returning a function
+../includes/dhcpd.h:2986: error: ‘dhcp_group_set_value’ declared as function returning a function
+../includes/dhcpd.h:2989: error: ‘dhcp_group_get_value’ declared as function returning a function
+../includes/dhcpd.h:2990: error: ‘dhcp_group_destroy’ declared as function returning a function
+../includes/dhcpd.h:2992: error: ‘dhcp_group_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:2995: error: ‘dhcp_group_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:2997: error: ‘dhcp_group_lookup’ declared as function returning a function
+../includes/dhcpd.h:2999: error: ‘dhcp_group_create’ declared as function returning a function
+../includes/dhcpd.h:3001: error: ‘dhcp_group_remove’ declared as function returning a function
+../includes/dhcpd.h:3005: error: ‘dhcp_control_set_value’ declared as function returning a function
+../includes/dhcpd.h:3008: error: ‘dhcp_control_get_value’ declared as function returning a function
+../includes/dhcpd.h:3009: error: ‘dhcp_control_destroy’ declared as function returning a function
+../includes/dhcpd.h:3011: error: ‘dhcp_control_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3014: error: ‘dhcp_control_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3016: error: ‘dhcp_control_lookup’ declared as function returning a function
+../includes/dhcpd.h:3018: error: ‘dhcp_control_create’ declared as function returning a function
+../includes/dhcpd.h:3020: error: ‘dhcp_control_remove’ declared as function returning a function
+../includes/dhcpd.h:3024: error: ‘dhcp_subnet_set_value’ declared as function returning a function
+../includes/dhcpd.h:3027: error: ‘dhcp_subnet_get_value’ declared as function returning a function
+../includes/dhcpd.h:3028: error: ‘dhcp_subnet_destroy’ declared as function returning a function
+../includes/dhcpd.h:3030: error: ‘dhcp_subnet_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3033: error: ‘dhcp_subnet_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3035: error: ‘dhcp_subnet_lookup’ declared as function returning a function
+../includes/dhcpd.h:3037: error: ‘dhcp_subnet_create’ declared as function returning a function
+../includes/dhcpd.h:3039: error: ‘dhcp_subnet_remove’ declared as function returning a function
+../includes/dhcpd.h:3044: error: ‘dhcp_shared_network_set_value’ declared as function returning a function
+../includes/dhcpd.h:3048: error: ‘dhcp_shared_network_get_value’ declared as function returning a function
+../includes/dhcpd.h:3049: error: ‘dhcp_shared_network_destroy’ declared as function returning a function
+../includes/dhcpd.h:3051: error: ‘dhcp_shared_network_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3054: error: ‘dhcp_shared_network_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3056: error: ‘dhcp_shared_network_lookup’ declared as function returning a function
+../includes/dhcpd.h:3058: error: ‘dhcp_shared_network_create’ declared as function returning a function
+../includes/dhcpd.h:3060: error: ‘dhcp_shared_network_remove’ declared as function returning a function
+../includes/dhcpd.h:3080: error: ‘dhcp_lease_set_value’ declared as function returning a function
+../includes/dhcpd.h:3083: error: ‘dhcp_lease_get_value’ declared as function returning a function
+../includes/dhcpd.h:3084: error: ‘dhcp_lease_destroy’ declared as function returning a function
+../includes/dhcpd.h:3086: error: ‘dhcp_lease_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3089: error: ‘dhcp_lease_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3091: error: ‘dhcp_lease_lookup’ declared as function returning a function
+../includes/dhcpd.h:3093: error: ‘dhcp_lease_create’ declared as function returning a function
+../includes/dhcpd.h:3095: error: ‘dhcp_lease_remove’ declared as function returning a function
+../includes/dhcpd.h:3098: error: ‘dhcp_host_set_value’ declared as function returning a function
+../includes/dhcpd.h:3101: error: ‘dhcp_host_get_value’ declared as function returning a function
+../includes/dhcpd.h:3102: error: ‘dhcp_host_destroy’ declared as function returning a function
+../includes/dhcpd.h:3104: error: ‘dhcp_host_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3107: error: ‘dhcp_host_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3109: error: ‘dhcp_host_lookup’ declared as function returning a function
+../includes/dhcpd.h:3111: error: ‘dhcp_host_create’ declared as function returning a function
+../includes/dhcpd.h:3113: error: ‘dhcp_host_remove’ declared as function returning a function
+../includes/dhcpd.h:3116: error: ‘dhcp_pool_set_value’ declared as function returning a function
+../includes/dhcpd.h:3119: error: ‘dhcp_pool_get_value’ declared as function returning a function
+../includes/dhcpd.h:3120: error: ‘dhcp_pool_destroy’ declared as function returning a function
+../includes/dhcpd.h:3122: error: ‘dhcp_pool_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3125: error: ‘dhcp_pool_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3127: error: ‘dhcp_pool_lookup’ declared as function returning a function
+../includes/dhcpd.h:3129: error: ‘dhcp_pool_create’ declared as function returning a function
+../includes/dhcpd.h:3131: error: ‘dhcp_pool_remove’ declared as function returning a function
+../includes/dhcpd.h:3134: error: ‘dhcp_class_set_value’ declared as function returning a function
+../includes/dhcpd.h:3137: error: ‘dhcp_class_get_value’ declared as function returning a function
+../includes/dhcpd.h:3138: error: ‘dhcp_class_destroy’ declared as function returning a function
+../includes/dhcpd.h:3140: error: ‘dhcp_class_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3143: error: ‘dhcp_class_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3145: error: ‘dhcp_class_lookup’ declared as function returning a function
+../includes/dhcpd.h:3147: error: ‘dhcp_class_create’ declared as function returning a function
+../includes/dhcpd.h:3149: error: ‘dhcp_class_remove’ declared as function returning a function
+../includes/dhcpd.h:3152: error: ‘dhcp_subclass_set_value’ declared as function returning a function
+../includes/dhcpd.h:3155: error: ‘dhcp_subclass_get_value’ declared as function returning a function
+../includes/dhcpd.h:3156: error: ‘dhcp_subclass_destroy’ declared as function returning a function
+../includes/dhcpd.h:3158: error: ‘dhcp_subclass_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3161: error: ‘dhcp_subclass_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3163: error: ‘dhcp_subclass_lookup’ declared as function returning a function
+../includes/dhcpd.h:3165: error: ‘dhcp_subclass_create’ declared as function returning a function
+../includes/dhcpd.h:3167: error: ‘dhcp_subclass_remove’ declared as function returning a function
+../includes/dhcpd.h:3171: error: ‘dhcp_interface_set_value’ declared as function returning a function
+../includes/dhcpd.h:3175: error: ‘dhcp_interface_get_value’ declared as function returning a function
+../includes/dhcpd.h:3177: error: ‘dhcp_interface_destroy’ declared as function returning a function
+../includes/dhcpd.h:3180: error: ‘dhcp_interface_signal_handler’ declared as function returning a function
+../includes/dhcpd.h:3183: error: ‘dhcp_interface_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3186: error: ‘dhcp_interface_lookup’ declared as function returning a function
+../includes/dhcpd.h:3188: error: ‘dhcp_interface_create’ declared as function returning a function
+../includes/dhcpd.h:3190: error: ‘dhcp_interface_remove’ declared as function returning a function
+../includes/dhcpd.h:3196: error: ‘binding_scope_set_value’ declared as function returning a function
+../includes/dhcpd.h:3199: error: ‘binding_scope_get_value’ declared as function returning a function
+../includes/dhcpd.h:3201: error: ‘binding_scope_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3223: error: ‘enter_class’ declared as function returning a function
+../includes/dhcpd.h:3224: error: ‘delete_class’ declared as function returning a function
+../includes/dhcpd.h:3225: error: ‘enter_host’ declared as function returning a function
+../includes/dhcpd.h:3226: error: ‘delete_host’ declared as function returning a function
+../includes/dhcpd.h:3240: error: ‘dhcp_lease_free’ declared as function returning a function
+../includes/dhcpd.h:3241: error: ‘dhcp_lease_get’ declared as function returning a function
+../includes/dhcpd.h:3272: error: ‘lease_instantiate’ declared as function returning a function
+../includes/dhcpd.h:3300: error: ‘enter_failover_peer’ declared as function returning a function
+../includes/dhcpd.h:3302: error: ‘find_failover_peer’ declared as function returning a function
+../includes/dhcpd.h:3303: error: ‘dhcp_failover_link_initiate’ declared as function returning a function
+../includes/dhcpd.h:3305: error: ‘dhcp_failover_link_signal’ declared as function returning a function
+../includes/dhcpd.h:3309: error: ‘dhcp_failover_link_set_value’ declared as function returning a function
+../includes/dhcpd.h:3313: error: ‘dhcp_failover_link_get_value’ declared as function returning a function
+../includes/dhcpd.h:3315: error: ‘dhcp_failover_link_destroy’ declared as function returning a function
+../includes/dhcpd.h:3318: error: ‘dhcp_failover_link_stuff_values’ declared as function returning a function
+../includes/dhcpd.h:3319: error: ‘dhcp_failover_listen’ declared as function returning a function
+../includes/dhcpd.h:3323: error: ‘dhcp_failover_listener_signal’ declared as function returning a function
+../includes/dhcpd.h:3327: error: ‘dhcp_failover_listener_set_value’ declared as function returning a function
+../includes/dhcpd.h:3331: error: ‘dhcp_failover_listener_get_value’ declared as function returning a function
+../includes/dhcpd.h:3333: error: ‘dhcp_failover_listener_destroy’ declared as function returning a function
+../includes/dhcpd.h:3336: error: ‘dhcp_failover_listener_stuff’ declared as function returning a function
+../includes/dhcpd.h:3337: error: ‘dhcp_failover_register’ declared as function returning a function
+../includes/dhcpd.h:3339: error: ‘dhcp_failover_state_signal’ declared as function returning a function
+../includes/dhcpd.h:3341: error: ‘dhcp_failover_state_transition’ declared as function returning a function
+../includes/dhcpd.h:3342: error: ‘dhcp_failover_set_service_state’ declared as function returning a function
+../includes/dhcpd.h:3344: error: ‘dhcp_failover_set_state’ declared as function returning a function
+../includes/dhcpd.h:3346: error: ‘dhcp_failover_peer_state_changed’ declared as function returning a function
+../includes/dhcpd.h:3352: error: ‘dhcp_failover_send_state’ declared as function returning a function
+../includes/dhcpd.h:3353: error: ‘dhcp_failover_send_updates’ declared as function returning a function
+../includes/dhcpd.h:3362: error: ‘dhcp_failover_state_set_value’ declared as function returning a function
+../includes/dhcpd.h:3372: error: ‘dhcp_failover_state_get_value’ declared as function returning a function
+../includes/dhcpd.h:3374: error: ‘dhcp_failover_state_destroy’ declared as function returning a function
+../includes/dhcpd.h:3377: error: ‘dhcp_failover_state_stuff’ declared as function returning a function
+../includes/dhcpd.h:3380: error: ‘dhcp_failover_state_lookup’ declared as function returning a function
+../includes/dhcpd.h:3382: error: ‘dhcp_failover_state_create’ declared as function returning a function
+../includes/dhcpd.h:3384: error: ‘dhcp_failover_state_remove’ declared as function returning a function
+../includes/dhcpd.h:3400: error: ‘dhcp_failover_put_message’ declared as function returning a function
+../includes/dhcpd.h:3401: error: ‘dhcp_failover_send_connect’ declared as function returning a function
+../includes/dhcpd.h:3404: error: ‘dhcp_failover_send_connectack’ declared as function returning a function
+../includes/dhcpd.h:3406: error: ‘dhcp_failover_send_disconnect’ declared as function returning a function
+../includes/dhcpd.h:3408: error: ‘dhcp_failover_send_bind_update’ declared as function returning a function
+../includes/dhcpd.h:3411: error: ‘dhcp_failover_send_bind_ack’ declared as function returning a function
+../includes/dhcpd.h:3412: error: ‘dhcp_failover_send_poolreq’ declared as function returning a function
+../includes/dhcpd.h:3413: error: ‘dhcp_failover_send_poolresp’ declared as function returning a function
+../includes/dhcpd.h:3414: error: ‘dhcp_failover_send_update_request’ declared as function returning a function
+../includes/dhcpd.h:3415: error: ‘dhcp_failover_send_update_request_all’ declared as function returning a function
+../includes/dhcpd.h:3416: error: ‘dhcp_failover_send_update_done’ declared as function returning a function
+../includes/dhcpd.h:3418: error: ‘dhcp_failover_process_bind_update’ declared as function returning a function
+../includes/dhcpd.h:3420: error: ‘dhcp_failover_process_bind_ack’ declared as function returning a function
+../includes/dhcpd.h:3422: error: ‘dhcp_failover_generate_update_queue’ declared as function returning a function
+../includes/dhcpd.h:3424: error: ‘dhcp_failover_process_update_request’ declared as function returning a function
+../includes/dhcpd.h:3426: error: ‘dhcp_failover_process_update_request_all’ declared as function returning a function
+../includes/dhcpd.h:3428: error: ‘dhcp_failover_process_update_done’ declared as function returning a function
+../includes/dhcpd.h:3445: error: ‘dhcp_failover_state_allocate’ declared as function returning a function
+../includes/dhcpd.h:3445: error: ‘dhcp_failover_state_reference’ declared as function returning a function
+../includes/dhcpd.h:3445: error: ‘dhcp_failover_state_dereference’ declared as function returning a function
+../includes/dhcpd.h:3447: error: ‘dhcp_failover_listener_allocate’ declared as function returning a function
+../includes/dhcpd.h:3447: error: ‘dhcp_failover_listener_reference’ declared as function returning a function
+../includes/dhcpd.h:3447: error: ‘dhcp_failover_listener_dereference’ declared as function returning a function
+../includes/dhcpd.h:3449: error: ‘dhcp_failover_link_allocate’ declared as function returning a function
+../includes/dhcpd.h:3449: error: ‘dhcp_failover_link_reference’ declared as function returning a function
+../includes/dhcpd.h:3449: error: ‘dhcp_failover_link_dereference’ declared as function returning a function
+../includes/dhcpd.h:3471: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:3472: error: expected declaration specifiers or ‘...’ before ‘hash_foreach_func’
+../includes/dhcpd.h:3476: error: ‘iasubopt_allocate’ declared as function returning a function
+../includes/dhcpd.h:3479: error: ‘iasubopt_reference’ declared as function returning a function
+../includes/dhcpd.h:3481: error: ‘iasubopt_dereference’ declared as function returning a function
+../includes/dhcpd.h:3485: error: ‘ia_make_key’ declared as function returning a function
+../includes/dhcpd.h:3488: error: ‘ia_allocate’ declared as function returning a function
+../includes/dhcpd.h:3490: error: ‘ia_reference’ declared as function returning a function
+../includes/dhcpd.h:3492: error: ‘ia_dereference’ declared as function returning a function
+../includes/dhcpd.h:3494: error: ‘ia_add_iasubopt’ declared as function returning a function
+../includes/dhcpd.h:3497: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ia_equal’
+../includes/dhcpd.h:3502: error: ‘ipv6_pool_allocate’ declared as function returning a function
+../includes/dhcpd.h:3505: error: ‘ipv6_pool_reference’ declared as function returning a function
+../includes/dhcpd.h:3507: error: ‘ipv6_pool_dereference’ declared as function returning a function
+../includes/dhcpd.h:3512: error: ‘create_lease6’ declared as function returning a function
+../includes/dhcpd.h:3515: error: ‘add_lease6’ declared as function returning a function
+../includes/dhcpd.h:3516: error: ‘renew_lease6’ declared as function returning a function
+../includes/dhcpd.h:3518: error: ‘expire_lease6’ declared as function returning a function
+../includes/dhcpd.h:3519: error: ‘release_lease6’ declared as function returning a function
+../includes/dhcpd.h:3520: error: ‘decline_lease6’ declared as function returning a function
+../includes/dhcpd.h:3521: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘lease6_exists’
+../includes/dhcpd.h:3524: error: ‘mark_lease_unavailble’ declared as function returning a function
+../includes/dhcpd.h:3530: error: ‘create_prefix6’ declared as function returning a function
+../includes/dhcpd.h:3531: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘prefix6_exists’
+../includes/dhcpd.h:3534: error: ‘add_ipv6_pool’ declared as function returning a function
+../includes/dhcpd.h:3536: error: ‘find_ipv6_pool’ declared as function returning a function
+../includes/dhcpd.h:3537: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ipv6_in_pool’
+../includes/dhcpd.h:3540: error: ‘renew_leases’ declared as function returning a function
+../includes/dhcpd.h:3541: error: ‘release_leases’ declared as function returning a function
+../includes/dhcpd.h:3542: error: ‘decline_leases’ declared as function returning a function
+../includes/dhcpd.h:3557: error: ‘ddns_modify_fwd’ declared as function returning a function
+../includes/dhcpd.h:3560: error: ‘ddns_modify_ptr’ declared as function returning a function
+dhcpd.c:164: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘no_pid_file’
+dhcpd.c:175: error: ‘verify_addr’ declared as function returning a function
+dhcpd.c: In function ‘verify_addr’:
+dhcpd.c:176: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:176: error: (Each undeclared identifier is reported only once
+dhcpd.c:176: error: for each function it appears in.)
+dhcpd.c: At top level:
+dhcpd.c:179: error: ‘verify_auth’ declared as function returning a function
+dhcpd.c: In function ‘verify_auth’:
+dhcpd.c:181: error: ‘ISC_RESULTCLASS_DHCP’ undeclared (first use in this function)
+dhcpd.c:182: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c: In function ‘omapi_listener_start’:
+dhcpd.c:192: error: lvalue required as left operand of assignment
+dhcpd.c:193: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:195: error: implicit declaration of function ‘isc_result_totext’
+dhcpd.c:195: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c:197: error: lvalue required as left operand of assignment
+dhcpd.c:200: error: lvalue required as left operand of assignment
+dhcpd.c:203: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c: In function ‘main’:
+dhcpd.c:284: error: implicit declaration of function ‘dhcp_context_create’
+dhcpd.c:285: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:287: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c:293: error: lvalue required as left operand of assignment
+dhcpd.c:296: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c:357: error: ‘no_pid_file’ undeclared (first use in this function)
+dhcpd.c:357: error: ‘ISC_TRUE’ undeclared (first use in this function)
+dhcpd.c:407: error: lvalue required as left operand of assignment
+dhcpd.c:438: error: lvalue required as left operand of assignment
+dhcpd.c:442: error: format ‘%s’ expects type ‘char *’, but argument 4 has type ‘int’
+dhcpd.c:511: error: lvalue required as left operand of assignment
+dhcpd.c:514: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c:780: error: implicit declaration of function ‘server_duid_isset’
+dhcpd.c:818: error: ‘ISC_FALSE’ undeclared (first use in this function)
+dhcpd.c: In function ‘postconf_initialization’:
+dhcpd.c:1013: error: lvalue required as left operand of assignment
+dhcpd.c:1015: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:1017: error: format ‘%s’ expects type ‘char *’, but argument 3 has type ‘int’
+dhcpd.c:1192: error: lvalue required as left operand of assignment
+dhcpd.c: In function ‘dhcpd_interface_setup_hook’:
+dhcpd.c:1338: error: lvalue required as left operand of assignment
+dhcpd.c:1339: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:1341: error: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+dhcpd.c: At top level:
+dhcpd.c:1388: error: ‘dhcp_io_shutdown’ declared as function returning a function
+dhcpd.c: In function ‘dhcp_io_shutdown’:
+dhcpd.c:1395: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c: At top level:
+dhcpd.c:1422: error: ‘dhcp_io_shutdown_countdown’ declared as function returning a function
+dhcpd.c: In function ‘dhcp_io_shutdown_countdown’:
+dhcpd.c:1508: error: ‘ISC_TRUE’ undeclared (first use in this function)
+dhcpd.c:1517: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c: At top level:
+dhcpd.c:1522: error: ‘dhcp_set_control_state’ declared as function returning a function
+dhcpd.c: In function ‘dhcp_set_control_state’:
+dhcpd.c:1527: error: ‘ISC_R_SUCCESS’ undeclared (first use in this function)
+dhcpd.c:1529: error: ‘ISC_RESULTCLASS_DHCP’ undeclared (first use in this function)
+make: *** [dhcpd-dhcpd.o] 错误 1

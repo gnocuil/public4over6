@@ -71,13 +71,18 @@ int tunnel_neigh_setup_dev(struct net_device* dev,struct neigh_parms *p)
  */
 void generate_random_hw(struct net_device *dev)
 {
-    //printk(KERN_INFO TUNNEL_DEVICE_NAME"generate_random_hw\n" );
     unsigned char tmp;
     struct net_device *pdev=__dev_get_by_name(&init_net,"eth0");
-    memcpy(dev->dev_addr,pdev->dev_addr,6);
-    tmp=dev->dev_addr[1];
-    dev->dev_addr[1]=dev->dev_addr[4];
-    dev->dev_addr[4]=tmp;
+    if (pdev == NULL) {
+        get_random_bytes(dev->dev_addr, ETH_ALEN);
+        dev->dev_addr[0] &= 0xfe;	// clear multicast bit 
+        dev->dev_addr[0] |= 0x02;	//set local assignment bit (IEEE802)
+    } else {
+        memcpy(dev->dev_addr,pdev->dev_addr,6);
+        tmp=dev->dev_addr[1];
+        dev->dev_addr[1]=dev->dev_addr[4];
+        dev->dev_addr[4]=tmp;
+    }
 }
 
 //return the type number of dhcp packet and hardware address
@@ -275,13 +280,15 @@ int public4over6_tunnel_xmit(struct sk_buff *skb,struct net_device *dev)
     ip6h->priority = 0;
     ip6h->payload_len = htons( skb->len - sizeof( struct ipv6hdr ));
     ip6h->nexthdr = IPPROTO_IPIP;//IPv4 over IPv6 protocol
-    ip6h->hop_limit = 64;     ip6h->saddr = src_addr;
+    ip6h->hop_limit = 64;
+     ip6h->saddr = src_addr;
     ip6h->daddr = out_addr;
     skb->protocol = htons(ETH_P_IPV6);
 
 #ifdef CONFIG_NETFILTER
     nf_conntrack_put(skb->nfct);
-    skb->nfct = NULL;     
+    skb->nfct = NULL;
+     
 #ifdef CONFIG_NETFILTER_DEBUG
     skb->nf_debug = 0;
 #endif

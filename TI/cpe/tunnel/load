@@ -1,0 +1,38 @@
+#!/bin/sh
+
+if [ $# -lt 1 ] ; then
+TC_IPV6_ADDRESS="2001:da8:bf:19::3"
+else
+TC_IPV6_ADDRESS=$1
+fi
+
+if [ $# -lt 2 ] ; then
+TI_IPV6_ADDRESS="2001:da8:bf:19::7"
+else
+TI_IPV6_ADDRESS=$2
+fi
+
+
+#-------------------------------------------------------
+echo Loading public4over6 module...
+insmod public4over6.ko
+ifconfig public4over6 up
+#-------------------------------------------------------
+
+./ioctl -a $TC_IPV6_ADDRESS $TI_IPV6_ADDRESS
+echo "remote ipv6 address : $TC_IPV6_ADDRESS"
+echo "local  ipv6 address : $TI_IPV6_ADDRESS"
+
+sysctl net.ipv4.ip_forward=1
+#--------------------------------------------------------------
+
+
+
+
+
+
+ 
+
+
+
+
